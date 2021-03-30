@@ -152,6 +152,7 @@
     "deviceStatusOnline": "온라인",
     "deviceStatusOffline": "오프라인",
     "deviceStatusUnknown": "모름",
+    "deviceVehicleBrand": "차량 브랜드",
     "groupDialog": "그룹",
     "groupParent": "그룹",
     "groupNoGroup": "그룹 없음",

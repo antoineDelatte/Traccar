@@ -152,6 +152,7 @@
     "deviceStatusOnline": "オンライン",
     "deviceStatusOffline": "オフライン",
     "deviceStatusUnknown": "不明",
+    "deviceVehicleBrand": "車両ブランド",
     "groupDialog": "グループ",
     "groupParent": "グループ",
     "groupNoGroup": "グループなし",

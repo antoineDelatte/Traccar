@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Conectat",
     "deviceStatusOffline": "Deconectat",
     "deviceStatusUnknown": "Necunoscut",
+    "deviceVehicleBrand": "Marca vehiculului",
     "groupDialog": "Grup",
     "groupParent": "Grup",
     "groupNoGroup": "Nici-un grup",

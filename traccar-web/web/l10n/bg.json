@@ -152,6 +152,7 @@
     "deviceStatusOnline": "На линия",
     "deviceStatusOffline": "Няма връзка",
     "deviceStatusUnknown": "Неизвестен",
+    "deviceVehicleBrand": "Марка на превозното средство",
     "groupDialog": "Група",
     "groupParent": "Група",
     "groupNoGroup": "Без група",

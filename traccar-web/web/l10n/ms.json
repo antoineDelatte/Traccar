@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Online",
     "deviceStatusOffline": "Offline",
     "deviceStatusUnknown": "Unknown",
+    "deviceVehicleBrand": "Jenama kenderaan",
     "groupDialog": "Group",
     "groupParent": "Group",
     "groupNoGroup": "No Group",

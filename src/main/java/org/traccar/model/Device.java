@@ -47,6 +47,12 @@ public class Device extends GroupedModel {
     public static final String STATUS_ONLINE = "online";
     public static final String STATUS_OFFLINE = "offline";
 
+    private String vehicleBrand;
+
+    public String getVehicleBrand(){return vehicleBrand;}
+
+    public void setVehicleBrand(String vehicleBrand) {this.vehicleBrand = vehicleBrand;}
+
     private String status;
 
     @QueryIgnore

@@ -152,6 +152,7 @@
     "deviceStatusOnline": "מחובר",
     "deviceStatusOffline": "מנותק",
     "deviceStatusUnknown": "מצבו אינו ידוע",
+    "deviceVehicleBrand": "מותג הרכב",
     "groupDialog": "קבוצה",
     "groupParent": "קבוצה",
     "groupNoGroup": "ללא קבוצה",

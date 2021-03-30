@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Tilkoblet",
     "deviceStatusOffline": "Frakoblet",
     "deviceStatusUnknown": "Ukjent",
+    "deviceVehicleBrand": "Kjøretøymerke",
     "groupDialog": "Gruppe",
     "groupParent": "Gruppe",
     "groupNoGroup": "Ingen gruppe",

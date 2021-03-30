@@ -55,6 +55,12 @@ const DevicePage = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails className={classes.details}>
+               <TextField
+                margin="normal"
+                value={item.vehicleBrand || ''}
+                onChange={event => setItem({...item, vehicleBrand: event.target.value})}
+                label={t('deviceVehicleBrand')}
+                variant="filled" />
               <SelectField
                 margin="normal"
                 value={item.groupId || 0}

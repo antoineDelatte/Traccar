@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Conectado",
     "deviceStatusOffline": "Desconectado",
     "deviceStatusUnknown": "Desconhecido",
+    "deviceVehicleBrand": "Marca do veículo",
     "groupDialog": "Grupo",
     "groupParent": "Grupo",
     "groupNoGroup": "Sem Grupo",

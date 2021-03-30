@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Online",
     "deviceStatusOffline": "Offline",
     "deviceStatusUnknown": "Okänd",
+    "deviceVehicleBrand": "Fordonets märke",
     "groupDialog": "Grupp",
     "groupParent": "Grupp",
     "groupNoGroup": "Ingen grupp",
