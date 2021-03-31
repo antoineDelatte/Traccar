@@ -50,7 +50,7 @@ const DeviceView = ({ updateTimestamp, onMenuClick }) => {
                 <img className={classes.icon} src={`images/icon/${item.category || 'default'}.svg`} alt="" />
               </Avatar>
             </ListItemAvatar>
-            <ListItemText primary={item.name} secondary={item.uniqueId} />
+            <ListItemText primary={`${item.name} (${item.uniqueId})`} secondary={item.vehicleBrand} />
             <ListItemSecondaryAction>
               <IconButton onClick={(event) => onMenuClick(event.currentTarget, item.id)}>
                 <MoreVertIcon />

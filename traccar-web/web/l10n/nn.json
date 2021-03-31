@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Tilkopla",
     "deviceStatusOffline": "Fråkopla",
     "deviceStatusUnknown": "Ukjend",
+    "deviceVehicleBrand": "Kjøretøymerke",
     "groupDialog": "Gruppe",
     "groupParent": "Gruppe",
     "groupNoGroup": "Inga gruppe",

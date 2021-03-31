@@ -152,6 +152,7 @@
     "deviceStatusOnline": "在线",
     "deviceStatusOffline": "离线",
     "deviceStatusUnknown": "未知",
+    "deviceVehicleBrand": "车辆品牌",
     "groupDialog": "分组",
     "groupParent": "分组",
     "groupNoGroup": "未分组",

@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Çevrimiçi",
     "deviceStatusOffline": "Çevrimdışı",
     "deviceStatusUnknown": "Bilinmeyen",
+    "deviceVehicleBrand": "Araç markası",
     "groupDialog": "Grup",
     "groupParent": "Grup",
     "groupNoGroup": "Grupsuz",

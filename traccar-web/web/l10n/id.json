@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Aktif",
     "deviceStatusOffline": "Tidak Aktif",
     "deviceStatusUnknown": "Tidak Diketahui",
+    "deviceVehicleBrand": "Merek kendaraan",
     "groupDialog": "Grup",
     "groupParent": "Grup",
     "groupNoGroup": "No Grup",

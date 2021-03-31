@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Online",
     "deviceStatusOffline": "Offline",
     "deviceStatusUnknown": "Neznáme",
+    "deviceVehicleBrand": "Značka vozidla",
     "groupDialog": "Skupina",
     "groupParent": "Skupina",
     "groupNoGroup": "Žiadna skupina",

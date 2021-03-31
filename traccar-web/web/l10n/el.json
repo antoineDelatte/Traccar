@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Σε σύνδεση",
     "deviceStatusOffline": "Χωρίς σύνδεση",
     "deviceStatusUnknown": "Άγνωστο",
+    "deviceVehicleBrand": "μάρκα οχήματος",
     "groupDialog": "Ομάδα",
     "groupParent": "Ομάδα",
     "groupNoGroup": "Χωρίς Ομάδα",

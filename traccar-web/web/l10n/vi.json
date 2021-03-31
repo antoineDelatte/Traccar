@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Trực tuyến",
     "deviceStatusOffline": "Ngoại tuyến",
     "deviceStatusUnknown": "Không xác định",
+    "deviceVehicleBrand": "nhãn hiệu xe",
     "groupDialog": "Nhóm",
     "groupParent": "Nhóm",
     "groupNoGroup": "Không có nhóm",

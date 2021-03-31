@@ -152,6 +152,7 @@
     "deviceStatusOnline": "On-line",
     "deviceStatusOffline": "Off-line",
     "deviceStatusUnknown": "Ukendt",
+    "deviceVehicleBrand": "Køretøjsmærke",
     "groupDialog": "Gruppe",
     "groupParent": "Gruppe",
     "groupNoGroup": "Ingen gruppe",

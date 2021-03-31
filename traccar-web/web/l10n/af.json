@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Aanlyn",
     "deviceStatusOffline": "Van lyn af",
     "deviceStatusUnknown": "Onbekend",
+    "deviceVehicleBrand": "Voertuigmerk",
     "groupDialog": "Groep",
     "groupParent": "Groep",
     "groupNoGroup": "Geen Groep",

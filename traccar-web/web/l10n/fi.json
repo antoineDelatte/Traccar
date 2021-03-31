@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Online",
     "deviceStatusOffline": "Offline",
     "deviceStatusUnknown": "Tuntematon",
+    "deviceVehicleBrand": "Ajoneuvomerkki",
     "groupDialog": "Ryhmä",
     "groupParent": "Ryhmä",
     "groupNoGroup": "Ei ryhmää",

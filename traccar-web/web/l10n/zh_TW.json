@@ -152,6 +152,7 @@
     "deviceStatusOnline": "上線",
     "deviceStatusOffline": "下線",
     "deviceStatusUnknown": "未知",
+    "deviceVehicleBrand": "車輛品牌",
     "groupDialog": "群組",
     "groupParent": "上層群組",
     "groupNoGroup": "無所屬群組",

@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Онлайн",
     "deviceStatusOffline": "Офлайн",
     "deviceStatusUnknown": "Невідомий",
+    "deviceVehicleBrand": "марка транспортного засобу",
     "groupDialog": "Група",
     "groupParent": "Група",
     "groupNoGroup": "Група відсутня",

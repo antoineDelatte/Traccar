@@ -152,6 +152,7 @@
     "deviceStatusOnline": "متصل",
     "deviceStatusOffline": "غير متصل",
     "deviceStatusUnknown": "غير معروف",
+    "deviceVehicleBrand": "ماركة السيارة",
     "groupDialog": "مجموعة",
     "groupParent": "مجموعة",
     "groupNoGroup": "لا توجد مجموعة",

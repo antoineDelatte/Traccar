@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Elérhető",
     "deviceStatusOffline": "Offline",
     "deviceStatusUnknown": "Ismeretlen",
+    "deviceVehicleBrand": "Jármű márka",
     "groupDialog": "Csoport",
     "groupParent": "Csoport",
     "groupNoGroup": "Nincs Csoport",

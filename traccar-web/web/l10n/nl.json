@@ -152,6 +152,7 @@
     "deviceStatusOnline": "Online",
     "deviceStatusOffline": "Offline",
     "deviceStatusUnknown": "Onbekend",
+    "deviceVehicleBrand": "Voertuig merk",
     "groupDialog": "Groep",
     "groupParent": "Groep",
     "groupNoGroup": "Geen groep",
