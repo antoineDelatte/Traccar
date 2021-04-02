@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Paper, makeStyles } from '@material-ui/core';
 import MainToolbar from '../MainToolbar';
+import { SwitchCamera } from '@material-ui/icons';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -18,19 +19,33 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const ReportLayoutPage = ({ children, filter }) => {
+const ReportLayoutPage = ({ children, filter, customGridStyle }) => {
   const classes = useStyles();
+  const gridStyle = {
+    spacingGrid : 2,
+    xsGridFilter : 12,
+    mdGridFilter : 3,
+    lgGridFilter : 2,
+    xsGridChildren : 12,
+    mdGridChildren : 9,
+    lgGridChildren : 10,
+  }
+
+  if(customGridStyle){
+    Object.keys(gridStyle).forEach(key => {gridStyle[key] = (key in customGridStyle? customGridStyle : gridStyle)[key]});
+  }
+  
   return (
     <div className={classes.root}>
       <MainToolbar />
       <div className={classes.content}>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={3} lg={2}>
+        <Grid container spacing={gridStyle.spacingGrid}>
+          <Grid item xs={gridStyle.xsGridFilter} md={gridStyle.mdGridFilter} lg={gridStyle.lgGridFilter}>
             <Paper className={classes.form}>
               {filter}
             </Paper>
           </Grid>
-          <Grid item xs={12} md={9} lg={10}>
+          <Grid item xs={gridStyle.xsGridChildren} md={gridStyle.mdGridChildren} lg={gridStyle.lgGridChildren}>
             {children}
           </Grid>
         </Grid>
@@ -38,5 +53,6 @@ const ReportLayoutPage = ({ children, filter }) => {
     </div>
   );
 }
+
 
 export default ReportLayoutPage;

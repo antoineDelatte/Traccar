@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import MainPage from './MainPage';
 import LoginPage from './LoginPage';
+import MovementStopReportPage from './MovementStopReportPage';
 import RouteReportPage from './reports/RouteReportPage';
 import ServerPage from './admin/ServerPage';
 import UsersPage from './admin/UsersPage';
@@ -54,6 +55,7 @@ const App = () => {
               <Route exact path='/settings/attribute/:id?' component={ComputedAttributePage} />                            
               <Route exact path='/admin/server' component={ServerPage} />
               <Route exact path='/admin/users' component={UsersPage} />
+              <Route exact path='/reports/movement-stop' component={MovementStopReportPage} />
               <Route exact path='/reports/route' component={RouteReportPage} />              
               <Route exact path='/reports/event' component={EventReportPage} />
               <Route exact path='/reports/trip' component={TripReportPage} />
