@@ -24,6 +24,7 @@ const DevicePage = () => {
   const [item, setItem] = useState();
 
   return (
+    
     <EditItemView endpoint="devices" item={item} setItem={setItem}>
       {item &&
         <>

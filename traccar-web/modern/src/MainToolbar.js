@@ -30,6 +30,7 @@ import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import FolderIcon from '@material-ui/icons/Folder';
 import ReplayIcon from '@material-ui/icons/Replay';
+import TrackChangesIcon from '@material-ui/icons/TrackChanges';
 import t from './common/localization';
 
 const useStyles = makeStyles(theme => ({
@@ -111,6 +112,12 @@ const MainToolbar = () => {
                 {t('reportTitle')}
               </ListSubheader>
             }>
+            <ListItem button onClick={() => history.push('/reports/movement-stop')}>
+              <ListItemIcon>
+                <TrackChangesIcon />
+              </ListItemIcon>
+              <ListItemText primary="Movements and stops" />
+            </ListItem>
             <ListItem button onClick={() => history.push('/reports/route')}>
               <ListItemIcon>
                 <TimelineIcon />
