@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Paper, makeStyles } from '@material-ui/core';
 import MainToolbar from '../MainToolbar';
-import { SwitchCamera } from '@material-ui/icons';
 
 const useStyles = makeStyles(theme => ({
   root: {

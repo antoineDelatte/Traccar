@@ -108,7 +108,8 @@ const MovementStopReportPage = () => {
             const from = dayBeginning.toISOString();
             const to = dayEnd.toISOString();
             const query = new URLSearchParams({ deviceId, from, to});
-            const response = await fetch(`/api/reports/route?${query.toString()}`);
+            const headers = {Accept : 'application/json'};
+            const response = await fetch(`/api/reports/route?${query.toString()}`, {headers});
             if (response.ok) {
                 const positions = await response.json();
                 if(positions.length > 0){
